@@ -1,0 +1,18 @@
+2. A CALCULATOR 
+
+a=float(input("enter first number:"))
+b=float(input("enter second number:"))
+
+c=input("1.addition\n2.subtraction\n3.multiplication\n4.divide\npress enter to continue")
+operation=int(input("enter the operation you want to perform 1,2,3or4:"))
+
+if(operation==1):
+    print(a+b)
+elif(operation==2):
+    print(a-b)
+elif(operation==3):
+    print(a*b)
+elif(operation==4):
+    print(a/b)
+else:
+    print("enter a valid operation")
